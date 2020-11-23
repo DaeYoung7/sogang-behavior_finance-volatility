@@ -1,8 +1,14 @@
 # sogang-behavior_finance-volatility
 * Data
   * KOSPI index / net buying of private, institute, foreigner
-  * get by scraping
-* Code
+  * get by scraping<br>
+* Analysis Code
+  * get_data.ipynb
+    * scrapping data (KOSPI, certain enterprise)
+  * analyze.ipynb
+    * find a relationship between KOSPI and net buying
+    * condition for comparision was decided my own
+* Prediction Code
   * main.py - 3 models
     * Linear
     * MC dropout
@@ -12,7 +18,7 @@
   * denoising.py
     * using CNN for denoise data
   * config.yml, search_space.json
-    * for using nni
+    * for using nni<br>
 * Execution
   1. make denoising model using denoising.py and data
   2. select model, denoising or not, epochs
