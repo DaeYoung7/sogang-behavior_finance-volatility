@@ -1,0 +1,7 @@
+{
+    "lr":{"_type":"uniform", "_value":[1e-3, 1e-5]},
+    "weight_decay":{"_type":"uniform", "_value":[1e-2, 1e-5]},
+    "param":{"_type":"choice", "_value":[128, 256, 512]},
+    "num_hidden":{"_type": "choice", "_value": [1, 2, 3, 4]},
+    "dropout_rate": {"_type": "uniform", "_value": [0.2, 0.4]}
+}
